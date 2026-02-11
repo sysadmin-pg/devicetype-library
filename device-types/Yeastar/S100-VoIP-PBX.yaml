@@ -1,0 +1,22 @@
+---
+manufacturer: Yeastar
+model: S100 VoIP PBX
+slug: yeastar-s100-voip-pbx
+u_height: 1.0
+is_full_depth: false
+airflow: passive
+comments: "See [Specifications](https://www.yeastar.com/s100-voip-pbx/).\r\n\r\nSee Installation Guide -> Hardware Overview -> [S100](https://help.yeastar.com/en/s-series/installation/s100_overview.html)."
+console-ports:
+  - name: Console
+    type: rj-45
+    description: Connect RS232 line to debug the system.
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+interfaces:
+  - name: LAN
+    type: 1000base-t
+    enabled: true
+  - name: WAN
+    type: 1000base-t
+    enabled: true
