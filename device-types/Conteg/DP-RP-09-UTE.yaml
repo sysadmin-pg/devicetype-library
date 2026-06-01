@@ -1,0 +1,41 @@
+---
+manufacturer: CONTEG
+model: DP-RP-09-UTE
+slug: conteg-dp-rp-09-ute
+description: PDU 19", 1U, 9 outlets UTE, 230 V, 16 A
+part_number: DP-RP-09-UTE
+u_height: 1.0
+is_full_depth: false
+airflow: passive
+comments: See [Specifications](https://www.conteg.cz/userfiles/pdu-datasheet-conteg-en-ce4cae8a.pdf?v=1darkm477d).
+power-ports:
+  - name: power port
+    type: ita-e
+power-outlets:
+  - name: power outlet 1
+    type: ita-e
+    power_port: power port
+  - name: power outlet 2
+    type: ita-e
+    power_port: power port
+  - name: power outlet 3
+    type: ita-e
+    power_port: power port
+  - name: power outlet 4
+    type: ita-e
+    power_port: power port
+  - name: power outlet 5
+    type: ita-e
+    power_port: power port
+  - name: power outlet 6
+    type: ita-e
+    power_port: power port
+  - name: power outlet 7
+    type: ita-e
+    power_port: power port
+  - name: power outlet 8
+    type: ita-e
+    power_port: power port
+  - name: power outlet 9
+    type: ita-e
+    power_port: power port
